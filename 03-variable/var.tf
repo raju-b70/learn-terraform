@@ -6,8 +6,15 @@ variable "m" {
 #DECLARE THE VARIABLE WITH POUT VALUE
 #variable "e" {}
 
-#PRINT VARIABLe
+variable "y_list" {
+  default = [9,0,8]
+}
 
+#PRINT VARIABLe
 output "m" {
   value = var.m
+}
+
+output "y_list" {
+  value = var.y_list
 }
