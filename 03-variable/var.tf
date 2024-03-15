@@ -4,7 +4,7 @@ variable "m" {
 }
 
 #DECLARE THE VARIABLE WITH POUT VALUE
-variable "e" {}
+#variable "e" {}
 
 #PRINT VARIABLe
 
