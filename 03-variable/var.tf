@@ -13,7 +13,7 @@ variable "y_list" {
 
 variable "d_map" {
   default = {
-    m = 10
+    x = 10
     y = 20
   }
 }
