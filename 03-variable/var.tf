@@ -1,5 +1,5 @@
 #DECLARE THE VARIABLE WITH VALUE
-variable "m" {
+variable "x" {
   default = 32
 }
 
@@ -19,8 +19,8 @@ variable "d" {
 }
 
 #PRINT VARIABLe
-output "m" {
-  value = var.m
+output "x" {
+  value = var.x
 }
 
 output "d" {
