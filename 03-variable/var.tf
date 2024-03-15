@@ -23,7 +23,7 @@ output "x" {
   value = var.x
 }
 
-output "d" {
+output "d_map" {
   value = var.d_map
 }
 
