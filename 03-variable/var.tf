@@ -24,7 +24,7 @@ output "x" {
 }
 
 output "d" {
-  value = "var.d_map"
+  value = var.d_map
 }
 
 output "y_list" {
