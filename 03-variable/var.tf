@@ -33,3 +33,15 @@ output "y_1" {
 output "d_x" {
   value =  var.d_map["x"]
 }
+
+#we can declare empty variable, butdata can be sent from a file ,those variables are called  (tfvars)
+variable "env" {}
+output "env" {
+  value = var.env
+}
+
+
+
+
+
+
