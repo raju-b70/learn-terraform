@@ -8,5 +8,5 @@ variable "e" {}
 
 #PRINT VARIABL
 output "m" {
-  value = "var.x"
+  value = "var.m"
 }
