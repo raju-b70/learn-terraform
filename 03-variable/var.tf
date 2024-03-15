@@ -11,7 +11,7 @@ variable "y_list" {
 }
 
 
-variable "d" {
+variable "d_map" {
   default = {
     m = 10
     y = 20
