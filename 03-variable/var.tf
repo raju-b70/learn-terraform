@@ -5,3 +5,8 @@ variable "m" {
 
 #DECLARE THE VARIABLE WITH POUT VALUE
 variable "e" {}
+
+#PRINT VARIABL
+output "m" {
+  value = "var.x"
+}
