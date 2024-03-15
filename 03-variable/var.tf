@@ -6,7 +6,8 @@ variable "m" {
 #DECLARE THE VARIABLE WITH POUT VALUE
 variable "e" {}
 
-#PRINT VARIABL
+#PRINT VARIABLe
+
 output "m" {
-  value = "var.m"
+  value = var.m
 }
