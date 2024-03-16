@@ -4,7 +4,7 @@ resource "aws_instance" "frontend" {
   instance_type = each.value["instant_type"]
   vpc_security_group_ids = var.security_group
   tags = {
-    Name = "frontend"
+    Name = "each.key"
   }
 }
 
