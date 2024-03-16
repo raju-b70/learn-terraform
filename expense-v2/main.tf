@@ -17,11 +17,12 @@ variable "instance_type" {
 }
 
 variable "security_groups" {
-  default = "sg-09998e9d2f260cf52"
+  default = ["sg-09998e9d2f260cf52"]
 }
 
 variable "instance_types" {
   default = {
+
     frontend = {
       instance_type = "t3.micro"
     }
