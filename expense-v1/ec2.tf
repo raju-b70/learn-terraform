@@ -34,5 +34,5 @@ variable "instance_type" {
 }
 
 variable "security_group" {
-  default = "ami-05f020f5935e52dc4"
+  default = "sg-09998e9d2f260cf52"
 }
