@@ -3,7 +3,7 @@ terraform {
 }
 
 output "env" {
-  value = "var.env"
+  value = var.env
 }
 
 variable "env" {}
