@@ -1,7 +1,10 @@
-terraform {
+provider "aws" {
+  region = "us-east-1"
+}
+ terraform {
   backend "s3" {
     bucket = "b79-tf-states"
-    key  = "testing/state"
+    key    = "testing/state"
     region   = "us-east-1"
   }
 }
