@@ -1,5 +1,5 @@
 variable "test" {
-  default = "abc"
+  default = "123rajendra"
 }
 
 output "test" {
