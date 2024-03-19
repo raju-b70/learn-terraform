@@ -25,6 +25,3 @@ data "aws_security_group" "selected" {
 }
 
 
-data "aws_security_group" "selected" {
-  name = "allow-all"
-}
