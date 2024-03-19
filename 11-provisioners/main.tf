@@ -8,7 +8,7 @@ provisioner "remote-exec" {
   connection {
     type     = "ssh"
     user     = "ec2-user"
-    password = DevOps321
+    password = "DevOps321"
     host     = self.public_ip
   }
 
