@@ -4,4 +4,4 @@ variable "test" {
 
 output "test" {
   value = lower(var.test)
-}
+} 
