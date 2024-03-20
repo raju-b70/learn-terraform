@@ -47,7 +47,9 @@ resource "null_resource""provisioner" {
   }
 }
 
-
+data "aws_security_group" "selected" {
+  name = "allow-all"
+}
 
 
 
